@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+}
+
+.div_header{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    background: url("https://wallpaperaccess.com/full/2834744.png") #27566B;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0;
+}
+
+header .div_header{
+    position: relative;
+    height: 700px;
+}
+
+header .nav_main{
+    width: 100%;
+    text-align: right;
+}
+
+header .nav_main a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+    margin: 400px 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+header .nav_main a:hover{
+    text-decoration: underline;
+}
+
+header .dic_text{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 25;
+    margin-top: -52%;
+}
+
+header .dic_text .name{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+header .dic_text .name span{
+    font-weight: 300;
+}
+
+header .dic_text h3{
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+}
