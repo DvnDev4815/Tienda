@@ -9,13 +9,15 @@
 }
 
 .sect_main .sect_about .div_photo{
+    border: 3px solid white;
+    border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
     position: absolute;
     width: 50%;
 
-    top: -50px;
+    top: -85px;
     z-index: 0;
-    left: 200px;
+    left: 20%;
 }
 
 .sect_main .sect_about .div_photo img{
@@ -25,15 +27,20 @@
 
 .sect_main .sect_about article{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .35);
-    background: #fff;
+    background-image: linear-gradient(to top, #0D4D4B, #688558);
+    border:  3px #FFFFFF solid;
     padding: 40px;
     
     position: relative;
     width: 50%;
     z-index: 1;
     
+    border-radius: 10px;
     float: right;
     top: 100px;
+    
+    color: #FFFFFF;
+    margin: auto;
 }
 
 .sect_main .sect_about article h3{

@@ -1,5 +1,70 @@
-.sect_main .sect_menu{
-    padding-top: 570px;
-    
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap');
 
+.sect_main .sect_menu{
+    font-family: 'IBM Plex Mono', monospace;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-top: 470px;
+    color: #fff;
+    width: 80%;
+}
+
+.sect_main .sect_menu .title{
+    text-decoration: underline;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 300;
+
+    font-size: 40px;
+}
+
+.sect_main .sect_menu .div_content{
+    background: #122c2a;
+    border: 1px double #fff;
+    overflow: hidden;
+
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sect_main .sect_menu article{
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+.sect_main .sect_menu .category{
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 700;
+
+    font-size: 22px;
+}
+
+.sect_main .sect_menu .div_phones{
+    border-bottom: 4px double;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+
+    overflow: hidden;
+}
+
+.sect_main .sect_menu .product_name{
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #b7f0ed;
+
+    float: left;
+}
+
+.sect_main .sect_menu .product_price{
+    margin-bottom: 15px;
+    font-size: 20px;
+    float: right;
+}
+
+.sect_main .sect_menu .product_info{
+    color: #D0E4E3;
+    font-size: 16px;
+    clear: both;
 }

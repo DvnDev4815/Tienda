@@ -1,0 +1,56 @@
+.sect_main .sect_galery {
+    overflow: hidden;
+}
+
+.sect_main .sect_galery .div_photo{
+    width: 25%;
+    float: left;
+}
+
+.sect_main .sect_galery .div_photo img{
+    width: 100%;
+    vertical-align: top;
+    opacity: .7;
+}
+
+.sect_main .sect_galery .div_photo:hover img {
+    opacity: 1;
+    -webkit-transition: all .3s ease;
+    -o-transition: all ease .3s;
+    transition: all ease .3s;
+}
+
+/* Ubicacion */
+
+.sect_main .sect_place {
+    background-color:  #fff;
+    padding: 60px 0;
+}
+
+.sect_main .sect_place .title {
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.sect_main .sect_place .div_direccion{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.sect_main .sect_place .div_hour{
+    float: right;
+    width: 50%;
+    text-align: left;
+}
+
+.sect_main .sect_place .div_direccion .contact_addres{
+    margin-bottom: 15px;
+}
+
+.sect_main .sect_place .div_hour h4{
+    text-align: center;
+}

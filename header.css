@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
 
+/* Definir la animación */
+@keyframes appear {
+    from { opacity: 0; } /* Opacidad inicial */
+    to { opacity: 1; } /* Opacidad final */
+}
+
+  
+/* Definir la animación */
+@keyframes typing {
+    from { width: 0; } /* Anchura inicial */
+    to { width: 80%; } /* Anchura final */
+}
+  
+
+
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +25,7 @@
 }
 
 body{
+    animation: appear 1s ease-in;
     font-family: 'Inconsolata', monospace;
     font-size: 16px;
 }
@@ -54,6 +70,12 @@ header .nav_main a:hover{
 }
 
 header .dic_text{
+    display: inline-block; /* Hacer que el elemento sea en línea */
+    white-space: nowrap; /* Evitar saltos de línea */
+    overflow: hidden; /* Ocultar el texto que no está visible */
+    border-right: 3px solid #ffffff; /* Añadir un borde derecho para el cursor */
+    animation: typing 2s steps(20); /* Agregar la animación */
+
     width: 100%;
     color: #fff;
     position: absolute;
@@ -62,8 +84,9 @@ header .dic_text{
 }
 
 header .dic_text .name{
-    font-size: 50px;
+    text-decoration: underline;
     font-weight: 600;
+    font-size: 50px;
 }
 
 header .dic_text .name span{
