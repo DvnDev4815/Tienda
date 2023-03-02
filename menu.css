@@ -19,8 +19,8 @@
 }
 
 .sect_main .sect_menu .div_content{
+    border: 1px solid #fff;
     background: #122c2a;
-    border: 1px double #fff;
     overflow: hidden;
 
     border-radius: 10px;
@@ -68,3 +68,4 @@
     font-size: 16px;
     clear: both;
 }
+

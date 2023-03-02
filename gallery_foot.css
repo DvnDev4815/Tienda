@@ -23,8 +23,10 @@
 /* Ubicacion */
 
 .sect_main .sect_place {
-    background-color:  #fff;
+    color:  #fff;
+    background-color:  transparent;
     padding: 60px 0;
+    margin-bottom: 100px;
 }
 
 .sect_main .sect_place .title {
@@ -33,12 +35,15 @@
     line-height: 40px;
     font-weight: 300;
     margin-bottom: 40px;
+
+    text-decoration: underline;
 }
 
 .sect_main .sect_place .div_direccion{
     float: left;
     width: 50%;
     text-align: left;
+    margin-left: 20%;
 }
 
 .sect_main .sect_place .div_hour{
@@ -47,10 +52,36 @@
     text-align: left;
 }
 
-.sect_main .sect_place .div_direccion .contact_addres{
-    margin-bottom: 15px;
+
+.sect_main .sect_place .div_hour .hour{
+    text-align: center;
 }
 
-.sect_main .sect_place .div_hour h4{
+/* mapa */
+
+.sect_main .sect_map{
+    overflow: hidden;
+    width: 100%;
+}
+
+.sect_main .sect_map iframe{
+    width: 100%;
+    max-height: 600px;
+}
+
+footer{
+
+    background-color: #122c2a;
+
+}
+
+footer a{
+    text-decoration: underline;
+    font-display: none;
+    color: #fff;
+}
+
+footer .copyright{
     text-align: center;
+    padding: 15px;
 }
